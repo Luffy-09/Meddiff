@@ -10,15 +10,15 @@ Cpncurrently have been used to run react app and JSON server at the same time.
 
 # Development Setup
 Please download this folder.
-Go to student folder and run these commands:
- npm install 
- npm i @material-ui/core
- npm i json-server 
- npm i concurrently
+Go to student folder and run these commands: <br>
+ **npm install** <br>
+ **npm i @material-ui/core** <br>
+ **npm i json-server** <br>
+ **npm i concurrently** <br>
 
 The setup is done.
 
-Run npm run command for starting the application on port 3000 and JSON server on 3003.
+Run** npm run command** for starting the application on port 3000 and JSON server on 3003.
 
 # Application Snapshot
 
