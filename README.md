@@ -16,3 +16,10 @@ Run npm i json-server for installing JSON-server.
 The setup is done.
 
 Run npm start for starting the application on port 3000.
+
+# Application Snapshot
+
+![](App_Front.PNG)
+![](Students.PNG)
+![](Add_Student.PNG)
+1[](Search_Student.PNG)
