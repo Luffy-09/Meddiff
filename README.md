@@ -18,7 +18,7 @@ Go to student folder and run these commands: <br>
 
 The setup is done.
 
-Run** npm run command** for starting the application on port 3000 and JSON server on 3003.
+Run **npm run command** for starting the application on port 3000 and JSON server on 3003.
 
 # Application Snapshot
 
