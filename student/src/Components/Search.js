@@ -32,12 +32,22 @@ const Search = () => {
 
     const getStudent = studentData.filter( stu =>  stu.rollNo == searchedStudent);
 
+    let isStudentPresent = true;
+    if(Object.keys(getStudent).length == 0) {
+        isStudentPresent = false;
+    }
+
+    const noStudent = () => {
+        return (
+            <h4>Student is not present!!!</h4>
+        );
+    };
+
     const details = () => {
         return (
         <Table className={style.table}>
         <TableHead>
             <TableRow className={style.thead}>
-                <TableCell>Id</TableCell>
                 <TableCell>Roll Number</TableCell>
                 <TableCell>Name</TableCell>
                 <TableCell>Age</TableCell>
@@ -48,7 +58,6 @@ const Search = () => {
             {
                 getStudent.map(stu => (
                     <TableRow>
-                        <TableCell>{stu.id}</TableCell>
                         <TableCell>{stu.rollNo}</TableCell>
                         <TableCell>{stu.name}</TableCell>
                         <TableCell>{stu.age}</TableCell>
@@ -69,7 +78,8 @@ const Search = () => {
                 <Input onChange={ (s) => {setSearchStudent(s.target.value)}}/>
             </FormControl>
             <Button variant="contained" color="primary" onClick={ () => setDetail(true)}>Search</Button>
-            {detail && details()}
+            {isStudentPresent && detail && details()}
+            {!isStudentPresent && detail && noStudent()}
         </FormGroup>
         
     );
