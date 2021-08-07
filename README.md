@@ -22,4 +22,4 @@ Run npm start for starting the application on port 3000.
 ![](App_Front.PNG)
 ![](Students.PNG)
 ![](Add_Student.PNG)
-1[](Search_Student.PNG)
+![](Search_Student.PNG)
