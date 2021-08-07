@@ -1,0 +1,25 @@
+{
+  "Student": [
+    {
+      "id": 1,
+      "name": "Himanshu",
+      "rollNo": "101603125",
+      "age": "23",
+      "gender": "M"
+    },
+    {
+      "name": "Dhiman",
+      "rollNo": "101603122",
+      "age": "22",
+      "gender": "M",
+      "id": 4
+    },
+    {
+      "name": "Gupta",
+      "rollNo": "101603123",
+      "age": "22",
+      "gender": "M",
+      "id": 5
+    }
+  ]
+}
