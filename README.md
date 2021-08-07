@@ -8,10 +8,10 @@ Node for using npm to setup.
 
 # Development Setup
 Please download this folder.
-
-Run npm install for installing npm packages.
-Run npm i @material-ui/core
-Run npm i json-server for installing JSON-server.
+Go to student folder and run these commands:
+ npm install 
+ npm i @material-ui/core
+ npm i json-server 
 
 The setup is done.
 
